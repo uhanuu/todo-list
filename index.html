@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>todo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-    <script>
-        const alpha = Number('A');
-        for (let i = 0; i < 10; i++) {
-            console.log(String.fromCharCode(65 + i));
-        }
-    </script>
+    <div class="app">
+        <header>
+            <h1>Todo 앱</h1>
+            <button id="create-btn">새로운 todo 추가하기</button>
+        </header>
+        <div class="todo-list"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
